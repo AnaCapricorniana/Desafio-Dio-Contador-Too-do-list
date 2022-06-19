@@ -9,3 +9,16 @@ function decrement () {
     currentNumber = currentNumber - 1;  
     currentNumberWrapper.innerHTML = currentNumber;
 }
+
+const CURRENT_NUMBER =document.getElementById('currentNumber')
+
+function increment () {
+  count++;
+  CURRENT_NUMBER.innerHTML = count;
+}
+count--;
+CURRENT_NUMBER.innerHTML = count
+
+function test() {
+  kdowkdpo;
+}
